@@ -29,4 +29,3 @@ cmake -DCMAKE_INSTALL_PREFIX=$BUILD_SPEECH_DIR -DCMAKE_BUILD_TYPE=Release \
 -DCMAKE_CXX_FLAGS="-pthread" $SRC_DIR/sdk-samples/speech
 
 make -j${nproc}
-make install
